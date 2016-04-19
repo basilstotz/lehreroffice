@@ -1,0 +1,57 @@
+
+[upgrades]
+u_fehlendeklassen
+
+
+;---------------------------------------
+; Fehlende Klassenvorlagen 
+;---------------------------------------
+
+[u_fehlendeklassen]
+caption=Fehlende Klassenvorlagen erstellen
+only=USER
+version=*
+tasks=f_fehlendeklassen
+
+[f_fehlendeklassen]
+a_fehlendeklassen_basisstufe12
+a_fehlendeklassen_basisstufe3
+a_fehlendeklassen_basisstufe4
+a_fehlendeklassen_ek
+
+
+[a_fehlendeklassen_basisstufe12]
+action=AddClasses
+name=%year%. Basisstufe
+niveau=B
+year_from=1
+year_until=2
+level=2
+copysubjects=RS_VORLAGE_VS_T%year%
+
+[a_fehlendeklassen_basisstufe3]
+action=AddClasses
+name=%year%. Basisstufe
+niveau=B
+year_from=3
+year_until=3
+level=10
+copysubjects=RS_VORLAGE_PS_P1
+
+[a_fehlendeklassen_basisstufe4]
+action=AddClasses
+name=%year%. Basisstufe
+niveau=B
+year_from=4
+year_until=4
+level=10
+copysubjects=RS_VORLAGE_PS_P2
+
+[a_fehlendeklassen_ek]
+action=AddClasses
+name=%year%. Einschulungsklasse
+niveau=I
+year_from=1
+year_until=2
+level=10
+copysubjects=RS_VORLAGE_PS_P1

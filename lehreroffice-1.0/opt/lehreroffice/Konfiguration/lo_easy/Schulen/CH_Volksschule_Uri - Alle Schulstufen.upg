@@ -1,0 +1,108 @@
+
+[upgrades]
+u_verhalten
+
+
+;---------------------------------------
+; Zeugnis 2011/12
+;---------------------------------------
+
+[u_verhalten]
+caption=Selbst- und Sozialkompetenzen ergänzen
+only=
+Version=8.2.2014
+year_from=2013
+year_until=2014
+tasks=t_verhalten
+
+
+[t_verhalten]
+
+a_verhalten_selbstkompetenz
+a_verhalten_sozialkompetenz
+
+a_verhalten_kmp.avi
+a_verhalten_kmp.avo
+a_verhalten_kmp.avs
+
+a_verhalten_kmp.vgz
+a_verhalten_kmp.vgr
+a_verhalten_kmp.vgm
+
+
+[a_verhalten_selbstkompetenz]
+action=group
+name=Selbstkompetenz
+key=SELBSTKOMPETENZ
+
+[a_verhalten_sozialkompetenz]
+action=group
+name=Sozialkompetenz
+key=SOZIALKOMPETENZ
+
+[a_verhalten_kmp.avi]
+action=DataField
+name=Beteiligung
+text=sich aktiv am Unterricht beteiligen
+key=AVI
+additional=übertroffen;erfüllt;teilweise erfüllt;nicht erfüllt
+default=erfüllt
+datatype=12
+group=SELBSTKOMPETENZ
+classes=*
+
+[a_verhalten_kmp.avo]
+action=DataField
+name=Sorgfalt
+text=sorgfältig arbeiten
+key=AVO
+additional=übertroffen;erfüllt;teilweise erfüllt;nicht erfüllt
+default=erfüllt
+datatype=12
+group=SELBSTKOMPETENZ
+classes=*
+
+[a_verhalten_kmp.avs]
+action=DataField
+name=Selbstständigkeit
+text=selbständig arbeiten
+key=AVS
+additional=übertroffen;erfüllt;teilweise erfüllt;nicht erfüllt
+default=erfüllt
+datatype=12
+group=SELBSTKOMPETENZ
+classes=*
+
+[a_verhalten_kmp.vgz]
+action=DataField
+name=Zusammenarbeit
+text=mit anderen zusammenarbeiten
+key=VGZ
+additional=übertroffen;erfüllt;teilweise erfüllt;nicht erfüllt
+default=erfüllt
+datatype=12
+group=SOZIALKOMPETENZ
+classes=*
+
+[a_verhalten_kmp.vgr]
+action=DataField
+name=Regeln
+text=sich an Regeln halten
+key=VGR
+additional=übertroffen;erfüllt;teilweise erfüllt;nicht erfüllt
+default=erfüllt
+datatype=12
+group=SOZIALKOMPETENZ
+classes=*
+
+[a_verhalten_kmp.vgm]
+action=DataField
+name=Respekt
+text=respektvoll mit anderen umgehen
+key=VGM
+additional=übertroffen;erfüllt;teilweise erfüllt;nicht erfüllt
+default=erfüllt
+datatype=12
+group=SOZIALKOMPETENZ
+classes=*
+

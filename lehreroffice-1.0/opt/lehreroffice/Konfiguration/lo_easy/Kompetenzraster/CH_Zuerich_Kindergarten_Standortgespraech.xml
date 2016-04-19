@@ -1,0 +1,720 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lehreroffice xmlns="http://www.lehreroffice.ch/xmlns/lo/2010/definitions-v1" version="2010.1" object="4">
+	<definitions>
+		<source>
+			<appName>LehrerOffice Easy</appName>
+			<appVersion>2010.12.7</appVersion>
+			<creationDate>2010-11-05</creationDate>
+			<creationTime>14:44:59</creationTime>
+		</source>
+		<competenceGrids>
+			<competenceGrid key="ZH_GSP_KIGA" versionDate="2010-10-01">
+				<gridDefinition>
+					<gridName>Standortgespräch, Kindergarten</gridName>
+					<editionDate>2010-10-01</editionDate>
+					<author>Bildungsdirektion Kanton Zürich</author>
+					<grade>VS</grade>
+					<fromClassYear>0</fromClassYear>
+					<untilClassYear>0</untilClassYear>
+					<curriculum>Kanton ZH</curriculum>
+					<modifyAllowed>0</modifyAllowed>
+					<protected>0</protected>
+					<gradingLabels inverted="0">
+						<gradingLabel gradingPos="0" lang="de">
+							<gradingName>nicht beurteilt</gradingName>
+							<gradingShortname>-</gradingShortname>
+						</gradingLabel>
+						<gradingLabel gradingPos="1" lang="de">
+							<gradingName>gering</gradingName>
+							<gradingShortname>g</gradingShortname>
+						</gradingLabel>
+						<gradingLabel gradingPos="2" lang="de">
+							<gradingName>mittel</gradingName>
+							<gradingShortname>m</gradingShortname>
+						</gradingLabel>
+						<gradingLabel gradingPos="3" lang="de">
+							<gradingName>normal</gradingName>
+							<gradingShortname>n</gradingShortname>
+						</gradingLabel>
+						<gradingLabel gradingPos="4" lang="de">
+							<gradingName>stark</gradingName>
+							<gradingShortname>s</gradingShortname>
+						</gradingLabel>
+						<gradingLabel gradingPos="5" lang="de">
+							<gradingName>sehr stark</gradingName>
+							<gradingShortname>e</gradingShortname>
+						</gradingLabel>
+					</gradingLabels>
+				</gridDefinition>
+				<gridItems>
+					<gridItem key="KGZH" itemKind="competencearea" countEnabled="0" valuesEnabled="0">
+						<itemDefinition>
+							<addAllowed>1</addAllowed>
+							<hideAllowed>1</hideAllowed>
+							<modifyAllowed>1</modifyAllowed>
+						</itemDefinition>
+						<itemNames>
+							<itemName personalForm="0" lang="de">Lernziele Kindergarten</itemName>
+						</itemNames>
+						<gridItems>
+							<gridItem key="AL" itemKind="target" countEnabled="1" valuesEnabled="1">
+								<itemDefinition>
+									<addAllowed>1</addAllowed>
+									<hideAllowed>1</hideAllowed>
+									<modifyAllowed>1</modifyAllowed>
+								</itemDefinition>
+								<itemNames>
+									<itemName personalForm="0" lang="de">Allgemeines Lernen</itemName>
+								</itemNames>
+								<gridItems>
+									<gridItem key="AL01" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">zuhören, zuschauen, hinspüren</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann zuhören, zuschauen, hinspüren</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="AL02" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">aufmerksam sein</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann aufmerksam sein</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="AL03" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">sich Verse, Melodien, Bewegungen merken und wiedergeben</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann sich Verse, Melodien, Bewegungen merken und wiedergeben</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="AL04" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Formen benennen, beschreiben und darstellen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Formen benennen, beschreiben und darstellen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="AL05" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">durch Spielen Dinge und Beziehungen erkunden</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann durch Spielen Dinge und Beziehungen erkunden</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="AL06" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Lösungen finden und umsetzen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Lösungen finden und umsetzen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="AL07" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Strategien anwenden</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Strategien anwenden</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="AL08" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">planen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann planen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="AL09" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">üben</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann üben</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+								</gridItems>
+							</gridItem>
+							<gridItem key="SB" itemKind="target" countEnabled="1" valuesEnabled="1">
+								<itemDefinition>
+									<addAllowed>1</addAllowed>
+									<hideAllowed>1</hideAllowed>
+									<modifyAllowed>1</modifyAllowed>
+								</itemDefinition>
+								<itemNames>
+									<itemName personalForm="0" lang="de">Spracherwerb und Begriffsbildung</itemName>
+								</itemNames>
+								<gridItems>
+									<gridItem key="SB01" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">lautgetreu nachsprechen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann lautgetreu nachsprechen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="SB02" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">den Sinn von Wörtern und Symbolen verstehen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann den Sinn von Wörtern und Symbolen verstehen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="SB03" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">korrekte Sätze bilden</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann korrekte Sätze bilden</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="SB04" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">einen altersentsprechenden Wortschatz aufbauen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann einen altersentsprechenden Wortschatz aufbauen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="SB05" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Sprache dem Sinn entsprechend modulieren</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Sprache dem Sinn entsprechend modulieren (Erst- und Zweitsprache)</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+								</gridItems>
+							</gridItem>
+							<gridItem key="ML" itemKind="target" countEnabled="1" valuesEnabled="1">
+								<itemDefinition>
+									<addAllowed>1</addAllowed>
+									<hideAllowed>1</hideAllowed>
+									<modifyAllowed>1</modifyAllowed>
+								</itemDefinition>
+								<itemNames>
+									<itemName personalForm="0" lang="de">Mathematisches Lernen</itemName>
+								</itemNames>
+								<gridItems>
+									<gridItem key="ML01" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">zählen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann zählen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="ML02" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">sich in räumlichen Zusammenhängen orientieren</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann sich in räumlichen Zusammenhängen orientieren (hinten/vorne, oben/unten)</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="ML03" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Grössen und Mengen erfassen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Grössen und Mengen erfassen sowie nach eigenen oder vorgegebenen Kriterien sortieren</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="ML04" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Gesetzmässigkeiten erkennen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Gesetzmässigkeiten erkennen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="ML05" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">sich im Zahlraum orientieren</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann sich im Zahlraum orientieren</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+								</gridItems>
+							</gridItem>
+							<gridItem key="UA" itemKind="target" countEnabled="1" valuesEnabled="1">
+								<itemDefinition>
+									<addAllowed>1</addAllowed>
+									<hideAllowed>1</hideAllowed>
+									<modifyAllowed>1</modifyAllowed>
+								</itemDefinition>
+								<itemNames>
+									<itemName personalForm="0" lang="de">Umgang mit Anforderungen</itemName>
+								</itemNames>
+								<gridItems>
+									<gridItem key="UA01" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">allein oder in der Gruppe eine Aufgabe ausführen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann allein oder in der Gruppe eine Aufgabe ausführen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="UA02" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Verantwortung übernehmen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Verantwortung übernehmen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="UA03" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">den Tagesablauf einhalten</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann den Tagesablauf einhalten</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="UA04" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">sich in eine Aufgabe vertiefen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann sich in eine Aufgabe vertiefen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="UA05" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">das eigene Verhalten steuern</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann das eigene Verhalten steuern</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="UA06" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">mit Freude und Frust umgehen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann mit Freude und Frust umgehen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+								</gridItems>
+							</gridItem>
+							<gridItem key="KM" itemKind="target" countEnabled="1" valuesEnabled="1">
+								<itemDefinition>
+									<addAllowed>1</addAllowed>
+									<hideAllowed>1</hideAllowed>
+									<modifyAllowed>1</modifyAllowed>
+								</itemDefinition>
+								<itemNames>
+									<itemName personalForm="0" lang="de">Kommunikation</itemName>
+								</itemNames>
+								<gridItems>
+									<gridItem key="KM01" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">verstehen, was andere sagen und ausdrücken</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann verstehen, was andere sagen und ausdrücken (nonverbal und verbal)</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="KM02" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">seine Gedanken so ausdrücken, dass andere diese verstehen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann seine Gedanken so ausdrücken, dass andere diese verstehen (nonverbal und verbal)</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="KM03" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Gespräche und Diskussionen mit Gleichaltrigen und Erwachsenen führen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Gespräche und Diskussionen mit Gleichaltrigen und Erwachsenen führen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+								</gridItems>
+							</gridItem>
+							<gridItem key="BM" itemKind="target" countEnabled="1" valuesEnabled="1">
+								<itemDefinition>
+									<addAllowed>1</addAllowed>
+									<hideAllowed>1</hideAllowed>
+									<modifyAllowed>1</modifyAllowed>
+								</itemDefinition>
+								<itemNames>
+									<itemName personalForm="0" lang="de">Bewegung und Mobilität</itemName>
+								</itemNames>
+								<gridItems>
+									<gridItem key="BM01" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">grobmotorische Bewegungsabläufe planen, koordinieren und nachahmen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann grobmotorische Bewegungsabläufe planen, koordinieren und nachahmen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="BM02" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">feinmotorische Bewegungen planen, koordinieren und nachahmen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann feinmotorische Bewegungen planen, koordinieren und nachahmen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="BM03" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Zeichen- und Schreibgeräte kontrolliert führen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Zeichen- und Schreibgeräte kontrolliert führen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+								</gridItems>
+							</gridItem>
+							<gridItem key="SS" itemKind="target" countEnabled="1" valuesEnabled="1">
+								<itemDefinition>
+									<addAllowed>1</addAllowed>
+									<hideAllowed>1</hideAllowed>
+									<modifyAllowed>1</modifyAllowed>
+								</itemDefinition>
+								<itemNames>
+									<itemName personalForm="0" lang="de">Für sich selbst sorgen</itemName>
+								</itemNames>
+								<gridItems>
+									<gridItem key="SS01" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Kleider und Schuhe an- und ausziehen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Kleider und Schuhe an- und ausziehen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="SS02" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">auf die Körperpflege, die Gesundheit und die Ernährung achten</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann auf die Körperpflege, die Gesundheit und die Ernährung achten</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="SS03" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">sich vor gefährlichen Situationen schützen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann sich vor gefährlichen Situationen schützen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+								</gridItems>
+							</gridItem>
+							<gridItem key="UM" itemKind="target" countEnabled="1" valuesEnabled="1">
+								<itemDefinition>
+									<addAllowed>1</addAllowed>
+									<hideAllowed>1</hideAllowed>
+									<modifyAllowed>1</modifyAllowed>
+								</itemDefinition>
+								<itemNames>
+									<itemName personalForm="0" lang="de">Umgang mit Menschen</itemName>
+								</itemNames>
+								<gridItems>
+									<gridItem key="UM01" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">mit anderen Menschen Kontakt aufnehmen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann mit anderen Menschen Kontakt aufnehmen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="UM02" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Achtung, Wärme, Toleranz entgegenbringen und annehmen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Achtung, Wärme, Toleranz entgegenbringen und annehmen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="UM03" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Nähe und Distanz regeln</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Nähe und Distanz regeln</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="UM04" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">mit Kritik umgehen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann mit Kritik umgehen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="UM05" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">Freunde finden und behalten</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann Freunde finden und behalten</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+								</gridItems>
+							</gridItem>
+							<gridItem key="FEG" itemKind="target" countEnabled="1" valuesEnabled="1">
+								<itemDefinition>
+									<addAllowed>1</addAllowed>
+									<hideAllowed>1</hideAllowed>
+									<modifyAllowed>1</modifyAllowed>
+								</itemDefinition>
+								<itemNames>
+									<itemName personalForm="0" lang="de">Freizeit, Erholung und Gemeinschaft</itemName>
+								</itemNames>
+								<gridItems>
+									<gridItem key="FEG01" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">am gemeinschaftlichen Leben in Schule, Familie und Nachbarschaft teilnehmen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann am gemeinschaftlichen Leben in Schule, Familie und Nachbarschaft teilnehmen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="FEG02" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">in Spiele und andere Freizeitaktivitäten einbezogen sein</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann in Spiele und andere Freizeitaktivitäten einbezogen sein</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+									<gridItem key="FEG03" itemKind="indicator" countEnabled="1" valuesEnabled="1">
+										<itemDefinition>
+											<addAllowed>0</addAllowed>
+											<hideAllowed>1</hideAllowed>
+											<modifyAllowed>1</modifyAllowed>
+										</itemDefinition>
+										<itemNames>
+											<itemName personalForm="0" lang="de">eigene Lieblingsaktivitäten pflegen</itemName>
+										</itemNames>
+										<itemDescriptions>
+											<itemDescription personalForm="0" lang="de">Das Kind kann eigene Lieblingsaktivitäten pflegen</itemDescription>
+										</itemDescriptions>
+									</gridItem>
+								</gridItems>
+							</gridItem>
+						</gridItems>
+					</gridItem>
+				</gridItems>
+			</competenceGrid>
+		</competenceGrids>
+	</definitions>
+</lehreroffice>

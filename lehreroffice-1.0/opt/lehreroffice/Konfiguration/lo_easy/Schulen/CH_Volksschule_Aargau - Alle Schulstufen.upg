@@ -1,0 +1,1302 @@
+[upgrades]
+u_bap10
+u_catoa
+u_zgn_2011
+u_zgn_2012
+u_kigabogen_2013
+u_klassen63
+u_2primarklasse
+u_kiga_anpassungen_2014
+u_zgn_2015
+u_zgn_2016
+u_zgn_2017
+u_kiga_bericht_per_2015
+u_zgn_absenz
+
+;---------------------------------------
+; Zeugnis 2010
+;---------------------------------------
+
+[u_bap10]
+caption=Abschlussprüfung Bezirksschule BAP
+only=user
+;only=easy;sek
+version=25.9.2009
+year_from=*
+year_until=*
+tasks=t_bap10
+
+[u_catoa]
+caption=Separate Beurteilungskategorie für Orientierungsnoten
+version=1.12.2010
+year_from=2010
+year_until=2012
+tasks=t_catoa
+
+;---------------------------------------
+; Zeugnis 2011
+;---------------------------------------
+
+[u_zgn_2011]
+caption=1. Oberstufenklassen mit Englisch erweitern
+only=user
+version=27.6.2011
+year_from=2011
+year_until=2012
+tasks=t_zgn_2011
+
+
+;---------------------------------------
+; Zeugnis 2012
+;---------------------------------------
+
+[u_zgn_2012]
+caption=Zeugnisanpassungen auf Schuljahr 2012/13 
+only=user
+version=5.7.2012
+year_from=2012
+year_until=2013
+tasks=t_zgn_2012
+
+;---------------------------------------
+; Kindergarten 2013
+;---------------------------------------
+
+[u_kigabogen_2013]
+caption=Einschätzungsbogen Kindergarten 
+only=PRIMAR
+version=8.7.2013
+year_from=2013
+year_until=2013
+tasks=t_kiga_2013
+
+;---------------------------------------
+; Klassen 6/3 2014
+;---------------------------------------
+
+[u_klassen63]
+caption=Sechsjährige Primarschule (6/3) 
+only=PRIMAR
+version=13.3.2014
+year_from=2014
+year_until=2015
+tasks=t_klassen63
+
+;---------------------------------------
+; Textiles Werken der 2. Primar zuordnen
+;---------------------------------------
+
+[u_2primarklasse]
+caption=Textiles Werken der 2. Primar zuordnen 
+only=PRIMAR
+version=17.7.2014
+year_from=2014
+year_until=2015
+tasks=t_2primarklasse
+
+
+;-------------------------------------
+;Kindergarten 2014
+;-------------------------------------
+
+[u_kiga_anpassungen_2014]
+caption=Optimierungen für den Kindergarten (Einschätzungsbogen neu im Modul 'Zeugnisse')
+only=PRIMAR
+version=13.8.2014
+year_from=2014
+year_until=2015
+tasks=t_kiga_anpassungen_2014
+
+
+;----------------------------------------
+; Zeugnis 2015/16
+;----------------------------------------
+
+[u_zgn_2015]
+caption=Anpassungen ab Schuljahr 2015/16
+version=*
+year_from=2015
+year_until=2016
+tasks=t_zgn_2015
+
+;----------------------------------------
+; Zeugnis 2016/17
+;----------------------------------------
+
+[u_zgn_2016]
+caption=Anpassungen Oberstufe ab Schuljahr 2016/17
+version=20.2.2015
+year_from=2016
+year_until=2017
+tasks=t_zgn_2016
+
+;----------------------------------------
+; Zeugnis 2017/18
+;----------------------------------------
+
+[u_zgn_2017]
+caption=Anpassungen 3. / 4. Oberstufe ab Schuljahr 2017/18
+version=20.2.2015
+year_from=2017
+year_until=2018
+tasks=t_zgn_2017
+
+;----------------------------------------
+; Kiga Feld "Bericht per" erstellen
+;----------------------------------------
+
+[u_kiga_bericht_per_2015]
+caption=KG: Feld "Bericht per" erstellen
+version=*
+year_from=*
+year_until=*
+tasks=t_kiga_bericht_per_2015
+
+;----------------------------------------
+; Unentschuldigte Absenz 2016/17
+;----------------------------------------
+
+[u_zgn_absenz]
+caption=Unentschuldigte Absenzen in Oberstufenzeugnis ab Schuljahr 2016/17
+version=20.2.2015
+year_from=2016
+year_until=2018
+tasks=t_zgn_absenz
+
+;============================================
+; Abschlussprüfung Bezirksschule BAP
+;============================================
+
+[t_bap10]
+a_bap10_groupbap
+a_bap10_LBAP
+a_bap10_DBAP
+a_bap10_FSBAP
+a_bap10_FMBAP
+a_bap10_MBAP
+
+[a_bap10_groupbap]
+action=group
+name=Abschlussprüfung BAP
+key=GRUPPEBAP
+
+[a_bap10_LBAP]
+action=DataField
+AddifMissing=1
+name=Latein BAP
+text=Latein für BAP werten
+key=LBAP
+additional=ja;nein
+default=ja
+datatype=8
+group=GRUPPEBAP
+classes=B4
+needed=1
+
+[a_bap10_DBAP]
+action=DataField
+AddifMissing=1
+name=Dt BAP
+text=Deutsch BAP
+key=DBAP
+additional=
+default=
+datatype=7
+group=GRUPPEBAP
+classes=B4
+needed=1
+
+[a_bap10_FSBAP]
+action=DataField
+AddifMissing=1
+name=F s BAP
+text=Französisch schriftlich BAP
+key=FSBAP
+additional=
+default=
+datatype=7
+group=GRUPPEBAP
+classes=B4
+needed=1
+
+[a_bap10_FMBAP]
+action=DataField
+AddifMissing=1
+name=F m BAP
+text=Französisch mündlich BAP
+key=FMBAP
+additional=
+default=
+datatype=7
+group=GRUPPEBAP
+classes=B4
+needed=1
+
+[a_bap10_MBAP]
+action=DataField
+AddifMissing=1
+name=Ma BAP
+text=Mathematik BAP
+key=MBAP
+additional=
+default=
+datatype=7
+group=GRUPPEBAP
+classes=B4
+needed=1
+
+
+;============================================
+; Separate Beurteilungskategorie für Orientierungsnoten
+;============================================
+
+[t_catoa]
+a_catoa.doa
+a_catoa.dsort
+a_catoa.eoa
+a_catoa.esort
+a_catoa.foa
+a_catoa.fsort
+a_catoa.moa
+a_catoa.msort
+a_catoa.jahreszeugnis
+a_catoa.avu
+
+[a_catoa.doa]
+action=category
+subject=D
+key=DOA
+name=Orientierungsnoten
+round=1
+
+[a_catoa.dsort]
+action=sortcategories
+subject=D
+sort=DOA;DH;DL;DS;DB
+showerrors=0
+needed=1
+
+[a_catoa.eoa]
+action=category
+subject=E
+key=EOA
+name=Orientierungsnoten
+round=1
+
+[a_catoa.esort]
+action=sortcategories
+subject=E
+sort=EOA;EH;EL;EP;ES
+showerrors=0
+needed=1
+
+[a_catoa.foa]
+action=category
+subject=F
+key=FOA
+name=Orientierungsnoten
+round=1
+showerrors=0
+
+[a_catoa.fsort]
+action=sortcategories
+subject=F
+sort=FOA;FH;FL;FP;FS
+showerrors=0
+needed=1
+
+[a_catoa.moa]
+action=category
+subject=M
+key=MOA
+name=Orientierungsnoten
+round=1
+
+[a_catoa.msort]
+action=sortcategories
+subject=M
+sort=MOA;MA;MG;MS;MD
+showerrors=0
+needed=1
+
+[a_catoa.jahreszeugnis]
+action=ChangeClasses
+classes=*
+yearly=1
+
+[a_catoa.avu]
+action=DataField
+name=Unterrichtsbesuch
+text=Erscheint ordnungsgemäss zum Unterricht
+key=AVU
+addifmissing=0
+showerrors=0
+
+
+;============================================
+; Zeugnis für Schuljahr 2011/12 mit Englisch erweitern
+;============================================
+
+
+[t_zgn_2011]
+a_zgn_2011.englisch1Sek
+a_zgn_2011.jahreszeugnis
+
+[a_zgn_2011.englisch1Sek]
+action=Subject
+addifmissing=0
+classes=SEK.1
+classes_flags=35
+only=SEK
+key=E
+
+
+[a_zgn_2011.jahreszeugnis]
+action=ChangeClasses
+classes=SEK.1
+yearly=1
+
+
+
+;============================================
+; Zeugnis für Schuljahr 2012/13
+;============================================
+
+
+[t_zgn_2012]
+a_zgn_2012.avs
+a_zgn_2012.avv
+a_zgn_2012.sortselbstkompetenz
+a_zgn_2012.kompetenzraster
+
+[a_zgn_2012.avs]
+action=DataField
+name=Selbstständigkeit
+text=Erledigt Arbeiten selbstständig
+key=AVS
+additional=sehr gut;gut;genügend;ungenügend
+default=gut
+datatype=12
+yearly=-1
+group=SELBSTKOMPETENZ
+classes=*
+
+[a_zgn_2012.avv]
+action=DataField
+name=Zuverlässigkeit
+text=Erledigt Arbeiten zuverlässig
+key=AVV
+additional=sehr gut;gut;genügend;ungenügend
+default=gut
+datatype=12
+yearly=-1
+group=SELBSTKOMPETENZ
+classes=*
+
+[a_zgn_2012.sortselbstkompetenz]
+action=sortsubjects
+group=SELBSTKOMPETENZ
+sort=AVU;AVB;AVS;AVV
+
+[a_zgn_2012.kompetenzraster]
+action=CompetenceGrid
+filename=CH_Aargau_Alle Schulstufen_Selbst- und Sozialkompetenz.xml
+needed=1
+
+;============================================
+; Kindergarten 2012/13
+;============================================
+
+[t_kiga_2013]
+a_kiga_2013.kompetenzraster
+a_kiga_2013.cat_bgk
+
+[a_kiga_2013.kompetenzraster]
+action=CompetenceGrid
+only=KIGA;PRIMAR
+filename=CH_Aargau_Kindergarten_Einschaetzungsbogen.xml
+needed=1
+
+[a_kiga_2013.cat_bgk]
+action=Category
+beschreibung=Schlüssel von alter Differenzierung 'Gestaltungsfähigkeit' umbenennen
+addifmissing=0
+showerrors=1
+subject=BG
+key=BGK
+newkey=BGBGK
+
+
+;============================================
+; Klassen 6/3 2014
+;============================================
+
+[t_klassen63]
+a_klassen63_6primar
+a_klassen63_6kleinklasse
+a_klassen63_F
+a_klassen63_Fzuordnen
+a_klassen63_sort
+a_klassen63_cat.FH
+a_klassen63_cat.FL
+a_klassen63_cat.FP
+a_klassen63_cat.FS
+a_klassen63_hint
+
+
+[a_klassen63_6primar]
+action=AddClass
+name=6. Primarschule
+niveau=P
+year=6
+yearly=1
+level=10
+key=RS_VORLAGE_PS_P6
+only=PRIMAR
+copysubjects=RS_VORLAGE_PS_P5
+
+[a_klassen63_6kleinklasse]
+action=AddClass
+name=6. Kleinklasse Primarstufe
+niveau=K
+year=6
+yearly=1
+level=10
+key=RS_VORLAGE_PS_K6
+only=PRIMAR
+copysubjects=RS_VORLAGE_PS_P5
+
+[a_klassen63_F]
+action=Subject
+Name=Französisch
+group=SCHULFCHER
+classes=PRIMAR.6
+classes_flags=3
+options=8
+only=PRIMAR
+onlyifmissing=1
+yearly=-1
+key=F
+categoryCaption=Orientierungsnoten
+categoryKey=FOA
+
+[a_klassen63_Fzuordnen]
+action=Subject
+caption=Fränzösisch der 6. Primar zuordnen
+classes=PRIMAR.6
+classes_flags=3
+options=8
+only=PRIMAR
+yearly=-1
+needed=1
+key=F
+
+[a_klassen63_cat.FH]
+action=Category
+subject=F
+key=FH
+Name=Hören
+round=1
+onlyifmissing=1
+
+[a_klassen63_cat.FL]
+action=Category
+subject=F
+key=FL
+Name=Lesen
+round=1
+onlyifmissing=1
+
+[a_klassen63_cat.FP]
+action=Category
+subject=F
+key=FP
+Name=Sprechen
+round=1
+onlyifmissing=1
+
+[a_klassen63_cat.FS]
+action=Category
+subject=F
+key=FS
+Name=Schreiben
+round=1
+onlyifmissing=1
+
+[a_klassen63_sort]
+action=sortsubjects
+group=SCHULFCHER
+sort=D;E;F
+needed=1
+only=PRIMAR
+
+
+[a_klassen63_hint]
+only=PRIMAR
+action=hint
+caption=Hinweise betreffend weiteres Vorgehen anzeigen
+text=Im Modul 'Klassen' können Sie nun die notwendigen Schulklassen für die 6. Primarschule erstellen.<br><br>Zudem sind die Einstellungen für die automatische Schülerumteilung beim Schuljahreswechsel entsprechend in den jeweiligen 5. Primarklassen umzustellen.<br><br>Weitere Informationen:<br>http://www.lehreroffice.ch/wiki/doku.php?id=lehreroffice:easy:kantone:ag:umstellung63
+
+
+
+;============================================
+; Textiles Werken der 2. Primar zuordnen
+;============================================
+
+[t_2primarklasse]
+a_2primarklasse_HAzuordnen
+a_2primarklasse_IUentfernen
+
+
+[a_2primarklasse_HAzuordnen]
+action=Subject
+caption=Textiles Werken der 2. Primar zuordnen
+classes=PRIMAR.2
+classes_flags=3
+options=8
+only=PRIMAR
+yearly=-1
+needed=1
+key=HA
+
+
+[a_2primarklasse_IUentfernen]
+action=DeactivateSubjects
+caption=Instrumentalunterricht ab 6. Primar
+only=PRIMAR
+key=IU
+classes=PRIMAR.1;PRIMAR.2;PRIMAR.3;PRIMAR.4;PRIMAR.5;
+
+
+
+
+
+
+;======================================
+;Kindergarten 2014 - Anpassungen
+;======================================
+
+[t_kiga_anpassungen_2014]
+a_kiga_deactivateSubjects_2014
+a_kiga_deactivateDataFields_2014
+a_kiga_addsubjects_2014_gs
+a_kiga_addsubjects_2014_fs
+a_kiga_addsubjects_2014_as
+a_kiga_group_sachkompetenz
+a_kiga_sortgroups
+a_kiga_addbehavior_2014_Bewegung
+a_kiga_addbehavior_2014_Wahrnehmung
+a_kiga_addbehavior_2014_Ausdruck
+a_kiga_addbehavior_2014_Selbstständigkeit
+a_kiga_addbehavior_2014_Erfolg
+a_kiga_addbehavior_2014_Kontakt
+a_kiga_addbehavior_2014_Gemeinschaft
+a_kiga_addbehavior_2014_Kommunikation
+a_kiga_addbehavior_2014_Kooperation
+a_kiga_addbehavior_2014_Begriff
+a_kiga_addbehavior_2014_Sprache
+a_kiga_addbehavior_2014_Beziehungen
+a_kiga_addbehavior_2014_Merken
+a_kiga_activateData_2014
+a_kiga_kompetenzraster_2014
+
+
+[a_kiga_deactivateSubjects_2014]
+action=DeactivateSubjects
+key=D;M;PS;SP;BG;RG;MK;WK;IU;HS
+classes=T
+
+[a_kiga_deactivateDataFields_2014]
+action=DeactivateDataFields
+key=AVU;AVB;AVS;AVV;AVO;AVZ;AVE;SVU;SVB;SVO;SVR;SVD
+classes=T
+
+[a_kiga_addsubjects_2014_gs]
+action=Subject
+Name=Geführte S.
+text=Geführte Sequenz
+group=Schulfächer
+yearly=-1
+classes=T
+key=KIGA_GEF_S
+
+[a_kiga_addsubjects_2014_fs]
+action=Subject
+Name=Freie S.
+text=Freie Sequenz
+group=Schulfächer
+yearly=-1
+classes=T
+key=KIGA_FREI_S
+
+[a_kiga_addsubjects_2014_as]
+action=Subject
+Name=Angeleitete S.
+text=Angeleitete Sequenz
+group=Schulfächer
+yearly=-1
+classes=T
+key=KIGA_ANG_S
+
+[a_kiga_group_sachkompetenz]
+action=group
+name=Sachkompetenz
+key=SACHKOMPETENZ
+
+[a_kiga_sortgroups]
+action=sortgroups
+sort=SCHULFCHER;SELBSTKOMPETENZ;SOZIALKOMPETENZ;SACHKOMPETENZ;ZEUGNIS
+
+[a_kiga_addbehavior_2014_Bewegung]
+action=DataField
+AddifMissing=1
+name=Bewegung
+text=Bewegungsfähigkeit
+key=KIGA_SEB
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SELBSTKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Wahrnehmung]
+action=DataField
+AddifMissing=1
+name=Wahrnehmung
+text=Wahrnehmungsfähigkeit
+key=KIGA_SEW
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SELBSTKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Ausdruck]
+action=DataField
+AddifMissing=1
+name=Ausdruck
+text=Ausdrucksfähigkeit
+key=KIGA_SEA
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SELBSTKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Selbstständigkeit]
+action=DataField
+AddifMissing=1
+name=Selbstständigkeit
+text=Selbstständigkeit und Konzentrationsfähigkeit
+key=KIGA_SES
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SELBSTKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Erfolg]
+action=DataField
+AddifMissing=1
+name=Erfolg/Misserfolg
+text=Umgang mit Erfolg und Misserfolg
+key=KIGA_SEU
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SELBSTKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Kontakt]
+action=DataField
+AddifMissing=1
+name=Kontakt
+text=Kontaktfähigkeit
+key=KIGA_SOK
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SOZIALKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Gemeinschaft]
+action=DataField
+AddifMissing=1
+name=Gemeinschaft
+text=Gemeinschaftsfähigkeit
+key=KIGA_SOV
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SOZIALKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Kommunikation]
+action=DataField
+AddifMissing=1
+name=Kommunikation
+text=Kommunikations- und Konfliktfähigkeit
+key=KIGA_SOG
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SOZIALKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Kooperation]
+action=DataField
+AddifMissing=1
+name=Kooperation
+text=Kooperationsfähigkeit
+key=KIGA_SOS
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SOZIALKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Begriff]
+action=DataField
+AddifMissing=1
+name=Begriffe
+text=Begriffs- und Symbolverständnis
+key=KIGA_SAB
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SACHKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Sprache]
+action=DataField
+AddifMissing=1
+name=Sprache
+text=Sprachliche Ausdrucksfähigkeit
+key=KIGA_SAS
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SACHKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Beziehungen]
+action=DataField
+AddifMissing=1
+name=Beziehungen
+text=Beziehungen und Gesetzmässigkeiten
+key=KIGA_SAR
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SACHKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_addbehavior_2014_Merken]
+action=DataField
+AddifMissing=1
+name=Merken
+text=Merk- und Wiedergabefähigkeit
+key=KIGA_SAM
+additional=fast immer erkennbar;oft erkennbar;manchmal erkennbar;noch selten erkennbar
+default=
+datatype=12
+group=SACHKOMPETENZ
+classes=T
+yearly=-1
+
+[a_kiga_activateData_2014]
+action=ActivateDataFields
+key=GSP
+classes=T
+
+[a_kiga_kompetenzraster_2014]
+action=CompetenceGrid
+only=KIGA;PRIMAR
+filename=CH_Aargau_Kindergarten_Einschaetzungsbogen.xml
+needed=1
+
+
+;========================================
+; Fächer/Klassenanpassungen Schuljahr 2015/16
+;========================================
+
+[t_zgn_2015]
+a_RS1_Werken_Wahlpflicht
+a_RS1_Werken_Wahlfach
+a_B34_Werken_Wahlfach
+a_R1_FE_Wahlfach
+a_B134_Lat_Wahlfach
+a_B1_HW_Oblig
+a_B1_Werken_Wahlfach
+a_R34_EFI_Wahlfach
+a_RSB34_Eth_Wahlfach
+a_SB34_I_Wahlfach
+a_S34B4_Ch_Oblig
+a_SB34_GTZ_Wahlfach
+a_B34_HW_Wahlfach
+a_B234_FreiesGest_deakt
+a_RS4_ProRech_erstellen_Wahlpflicht
+a_B4_ProRech_Wahlfach
+a_Chor_umbenennen
+a_Instrum_umbenennen
+a_Instrum2_umbenennen
+a_Praktikum_umbenennen
+a_RSB1_Prak_Wahlfach
+a_Sek1_DeactivatePhysikChemie
+a_Fächer_sortieren
+
+[a_RS1_Werken_Wahlpflicht]
+caption=1. Real/Sek: 'Textiles Werken' und 'Werken' als Wahlpflichtfächer definieren
+action=ActivateSubjects
+classes=R1;S1
+key=HA;WK
+classes_flags=67
+
+[a_B34_Werken_Wahlfach]
+caption=3./4. Bez: Wahlfächer 'Textiles Werken' und 'Werken' aktivieren
+action=ActivateSubjects
+key=HA;WK
+classes=B3;B4
+classes_flags=131
+yearly=-1
+
+[a_RS1_Werken_Wahlfach]
+caption=1. Real/Sek: Wahlfächer 'Textiles Werken' und 'Werken' aktivieren
+action=ActivateSubjects
+key=HA2;WK2
+classes=R1;S1
+classes_flags=131
+yearly=-1
+
+[a_R1_FE_Wahlfach]
+caption=1. Real: 'Französisch' und 'Englisch' als Wahlfächer definieren
+action=ActivateSubjects
+classes=R1
+key=E;F
+classes_flags=131
+
+[a_B134_Lat_Wahlfach]
+caption=1./3./4. Bez: 'Latein' als Wahlfach definieren
+action=ActivateSubjects
+classes=B1;B3;B4
+key=L
+classes_flags=131
+yearly=-1
+
+[a_B1_HW_Oblig]
+caption=1. Bez: 'Hauswirtschaft' als obligatorisches Fach definieren
+action=ActivateSubjects
+classes=B1
+key=HW
+classes_flags=3
+yearly=-1
+
+[a_B1_Werken_Wahlfach]
+caption=1. Bez: Wahlfächer 'Textiles Werken' und 'Werken' aktivieren
+action=ActivateSubjects
+key=HA;WK
+classes=B1
+classes_flags=131
+yearly=-1
+
+[a_R34_EFI_Wahlfach]
+caption=3./4. Real: Wahlfächer 'Englisch', 'Französisch' und 'Italienisch' aktivieren
+action=ActivateSubjects
+key=E;F;I
+classes=R3;R4
+classes_flags=131
+yearly=-1
+
+[a_RSB34_Eth_Wahlfach]
+caption=3./4. Real/Sek/Bez: Wahlfach 'Ethik' aktivieren
+action=ActivateSubjects
+key=RG
+classes=R3;S3;B3;R4;S4;B4
+classes_flags=131
+yearly=-1
+
+[a_SB34_I_Wahlfach]
+caption=3./4. Sek/Bez: Wahlfach 'Italienisch' aktivieren
+action=ActivateSubjects
+key=I
+classes=S3;B3;S4;B4
+classes_flags=131
+yearly=-1
+
+[a_S34B4_Ch_Oblig]
+caption=3./4. Sek, 4. Bez: 'Chemie' als obligatorisches Fach definieren
+action=ActivateSubjects
+classes=S3;S4;B4
+key=PC
+classes_flags=3
+yearly=-1
+
+[a_SB34_GTZ_Wahlfach]
+caption=3. Sek/Bez: 'GTZ' als Wahlfach definieren
+action=ActivateSubjects
+classes=S3;B3;S4;B4
+key=GZ
+classes_flags=131
+yearly=-1
+
+[a_B34_HW_Wahlfach]
+caption=3. Sek/Bez: 'Hauswirtschaft' als Wahlfach definieren
+action=ActivateSubjects
+classes=B3;B4
+key=HW
+classes_flags=131
+yearly=-1
+
+[a_B234_FreiesGest_deakt]
+action=DeactivateSubjects
+key=FG
+classes=B2;B3;B4
+
+[a_RS4_ProRech_erstellen_Wahlpflicht]
+caption=4. Real/Sek: 'Projekte' als Wahlpflichtfach definieren
+action=Subject
+Name=Projekte
+text=Projekte und Recherchen
+group=Schulfächer
+classes=R4;S4
+key=PA
+classes_flags=67
+yearly=-1
+
+[a_B4_ProRech_Wahlfach]
+caption=4. Bez: 'Projekte' als Wahlfach definieren
+action=Subject
+Name=Projekte
+text=Projekte und Recherchen
+group=Schulfächer
+classes=B4
+key=PA
+classes_flags=131
+yearly=-1
+
+
+[a_Chor_umbenennen]
+caption='Chor' umbenennen
+action=Subject
+Name=Chor
+text=Chor
+ShowErrors=0
+key=CO
+
+[a_Instrum_umbenennen]
+caption='Instrument' umbenennen
+action=Subject
+Name=Instrumentalunterricht
+text=Instrumentalunterricht/Ensemble
+key=IU
+
+[a_Instrum2_umbenennen]
+caption='Instrument' umbenennen
+action=Subject
+Name=Instrumentalunterricht
+text=Instrumentalunterricht/Ensemble
+ShowErrors=0
+key=IU2
+
+[a_Praktikum_umbenennen]
+caption='Realienpraktikum' umbenennen
+action=Subject
+Name=Praktikum
+text=Praktikum
+ShowErrors=0
+key=MN
+
+[a_RSB1_Prak_Wahlfach]
+caption=1. Real/Sek/Bez: 'Praktikum' als Wahlfach definieren
+action=ActivateSubjects
+classes=R1;S1;B1
+ShowErrors=0
+key=MN
+classes_flags=131
+yearly=-1
+
+[a_Sek1_DeactivatePhysikChemie]
+action=DeactivateSubjects
+key=PC;PP
+includeclasses=0
+classes=S1
+
+
+[a_Fächer_sortieren]
+action=sortsubjects
+group=Schulfächer
+sort=D;M;E;F;I;L;PB;PC;GG;GS;PP;PS;SP;BG;GZ;HW;MK;HA;HA2;WK;WK2;PR;CO;RG;IU;MN;HS
+
+
+;========================================
+; Fächer für die 2. Oberstufe anpassen
+;========================================
+
+[t_zgn_2016]
+a_RSB2_Ethik_Wahlfach
+a_RSB2_I_Wahlfach
+a_RSB2_Rp_Wahlfach
+a_RS2-HW_Oblig
+a_SB2_GTZ_Wahlfach
+a_R2_FE_Wahlfach
+a_S2_FE_Wahlpflicht
+a_B2_Lat_Wahlfach
+a_B2_Bio_Deakt
+a_B2_Physik_Oblig
+a_B2_HW_Wahlfach
+a_B2_Werken_Wahlfach
+a_Sek1_DeactivatePhysikChemie
+a_RS4_ProRech_erstellen_Wahlpflicht
+a_B4_ProRech_Wahlfach
+a_PR_Deakt
+
+
+[a_RSB2_Ethik_Wahlfach]
+caption=2. Real/Sek/Bez: 'Ethik' als Wahlfach definieren
+action=ActivateSubjects
+key=RG
+classes=R2;S2;B2
+classes_flags=131
+yearly=-1
+
+[a_RSB2_I_Wahlfach]
+caption=2. Real/Sek/Bez: Wahlfach 'Italienisch' aktivieren
+action=ActivateSubjects
+key=I
+classes=R2;S2;B2
+classes_flags=131;35
+yearly=-1
+
+[a_RSB2_Rp_Wahlfach]
+caption=2. Real/Sek/Bez: Wahlfach 'Realienpraktikum' aktivieren
+action=ActivateSubjects
+key=MN
+classes=R2;S2;B2
+classes_flags=131
+yearly=-1
+
+[a_RS2-HW_Oblig]
+caption=2. Real/Sek: 'Hauswirtschaft' als obligatorisches Fach definieren
+action=ActivateSubjects
+classes=R2;S2
+key=HW
+classes_flags=3;35
+yearly=-1
+
+[a_SB2_GTZ_Wahlfach]
+caption=2. Sek/Bez: 'GTZ' als Wahlfach definieren
+action=ActivateSubjects
+classes=S2;B2
+key=GZ
+classes_flags=131;35
+yearly=-1
+
+[a_R2_FE_Wahlfach]
+caption=2. Real: 'Französisch' und 'Englisch' als Wahlfächer definieren
+action=ActivateSubjects
+classes=R2
+key=E;F
+classes_flags=131;35
+
+[a_S2_FE_Wahlpflicht]
+caption=2. Sek: 'Französisch' und 'Englisch' als Wahlpflichtfächer definieren
+action=ActivateSubjects
+classes=S2
+key=E;F
+classes_flags=67;35
+
+[a_B2_Lat_Wahlfach]
+caption=2. Bez: 'Latein' als Wahlfach definieren
+action=ActivateSubjects
+classes=B2
+key=L
+classes_flags=131;35
+yearly=-1
+
+[a_B2_Bio_Deakt]
+caption=2. Bez: 'Biologie' ausblenden
+action=DeactivateSubjects
+key=PB
+classes=B2
+
+[a_B2_Physik_Oblig]
+caption=2. Bez: 'Physik' als obligatorisches Fach definieren
+action=ActivateSubjects
+classes=B2
+key=PP
+classes_flags=3;35
+yearly=-1
+
+[a_B2_HW_Wahlfach]
+caption=2. Bez: 'Hauswirtschaft' als Wahlfach definieren
+action=ActivateSubjects
+classes=B2
+key=HW
+classes_flags=131;35
+yearly=-1
+
+[a_B2_Werken_Wahlfach]
+caption=2. Bez: Wahlfächer 'Textiles Werken' und 'Werken' aktivieren
+action=ActivateSubjects
+key=HA;WK
+classes=B2
+classes_flags=131;35
+yearly=-1
+
+[a_PR_Deakt]
+caption=Doppeltes Fach 'Projekte und Recherchen' entfernen
+action=DeactivateSubjects
+key=PR
+classes=R3;S3;B3;R4;S4;B4
+
+;========================================
+; Fächer für die 3. Oberstufe anpassen
+;========================================
+
+[t_zgn_2017]
+a_RSB3_Eth_Wahlfach
+a_RS3_HW_Wahlpflicht
+a_R3_FE_Wahlfach
+a_S3_IGTZ_Wahlfach
+a_B3_ILWerken_Wahlfach
+a_B3_GeoPhyGTZHW_Deakt
+a_B3_BioCh_Oblig
+a_RSB4_ausblenden
+a_RS3_ProRech_erstellen_Wahlpflicht
+a_B3_ProRech_Wahlfach
+a_PR_Deakt
+
+[a_RSB3_Eth_Wahlfach]
+caption=3. Real/Sek/Bez: 'Ethik' als Wahlfach definieren
+action=ActivateSubjects
+classes=R3;S3;B3
+key=RG
+classes_flags=131
+
+[a_RS3_HW_Wahlpflicht]
+caption=3. Real/Sek: 'Hauswirtschaft' als Wahlpflichtfach definieren
+action=ActivateSubjects
+classes=R3;S3
+key=HW
+classes_flags=67;35
+
+[a_R3_FE_Wahlfach]
+caption=3. Real: 'Französisch' und 'Englisch' als Wahlfächer definieren
+action=ActivateSubjects
+classes=R3
+key=E;F
+classes_flags=131;35
+
+[a_S3_IGTZ_Wahlfach]
+caption=3. Sek: 'Italienisch' und 'GTZ' als Wahlfächer definieren
+action=ActivateSubjects
+classes=S3
+key=I;GZ
+classes_flags=131;35
+
+[a_B3_ILWerken_Wahlfach]
+caption=3. Bez: 'Italienisch', 'Latein', 'Text. Werken' und 'Werken' als Wahlfächer definieren
+action=ActivateSubjects
+classes=B3
+key=I;L;HA;WK
+classes_flags=131;35
+
+[a_B3_GeoPhyGTZHW_Deakt]
+caption=3. Bez: 'Geografie', 'Physik', 'GTZ' und 'Hauswirtschaft' ausblenden
+action=DeactivateSubjects
+key=GG;PP;GZ;HW
+classes=B3
+
+[a_B3_BioCh_Oblig]
+caption=3. Bez: 'Biologie' und 'Chemie' als obligatorische Fächer definieren
+action=ActivateSubjects
+classes=B3
+key=PB;PC
+classes_flags=3;35
+yearly=-1
+
+[a_RSB4_ausblenden]
+caption=Klassen der 4. Oberstufe ausblenden
+action=Delclasses
+classes=R4;S4;B4;KS4
+semester_year=2018
+
+
+[a_RS3_ProRech_erstellen_Wahlpflicht]
+caption=3. Real/Sek: 'Projekte und Recherchen' als Wahlpflichtfach definieren
+action=Subject
+Name=Projekte
+text=Projekte und Recherchen
+group=Schulfächer
+classes=R3;S3
+key=PA
+classes_flags=67
+yearly=-1
+
+[a_B3_ProRech_Wahlfach]
+caption=3. Bez: 'Projekte und Recherchen' als Wahlfach definieren
+action=Subject
+Name=Projekte
+text=Projekte und Recherchen
+group=Schulfächer
+classes=B3
+key=PA
+classes_flags=131
+yearly=-1
+
+
+
+;========================================
+; Kiga Feld "Bericht per" erstellen
+;========================================
+
+[t_kiga_bericht_per_2015]
+a_kiga_bericht_per_2015
+
+[a_kiga_bericht_per_2015]
+action=DataField
+AddifMissing=1
+name=Bericht per
+text=Datum für den Einschätzungsbogen
+key=KIGA_Bericht
+datatype=11
+group=Schulfächer
+classes=T
+yearly=-1
+
+
+;========================================
+; Unentschuldigte Absenz
+;========================================
+
+[t_zgn_absenz]
+a_SEK_UnentschuldigeAbsenz
+a_SEK_GroupZeugnisSort
+
+[a_SEK_UnentschuldigeAbsenz]
+action=DataField
+AddifMissing=1
+name=Unentschuldigt
+text=Unentschuldigte Absenzen in Halbtagen
+key=ABSU
+datatype=7
+group=Zeugnis
+classes=SEK
+yearly=-1
+
+[a_SEK_GroupZeugnisSort]
+action=sortsubjects
+group=ZEUGNIS
+sort=ABSU;BEM;GSP

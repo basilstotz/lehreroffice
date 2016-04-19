@@ -1,0 +1,11 @@
+Source: lehreroffice
+Section: unknown
+Priority: extra
+Maintainer: Basil Stotz <stotz@amxa.ch>
+Package: lehreroffice-1.0
+Version: 2016.3
+Architecture: i386
+Depends: debconf
+Description: Lehreroffice
+ Lehreroffice Version 2016.3
+
