@@ -1,3 +1,5 @@
 *.deb
 *.zip
+*.tgz
+*.tar
 lehreroffice-1.0/opt/lehreroffice/*
